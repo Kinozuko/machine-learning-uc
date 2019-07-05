@@ -277,154 +277,156 @@ print("Entropy for A14==0: {0:.3f}\n".format(E_SA14))
 
 # Attribute 2 (Value 0 or 1)
 
-A2 = np.array([
+A2_14 = np.array([
 		[1], # Samples for Attribute 2 where values are 1
 		[2,3,13,4] # Samples for Attribute 2 where values are 0
 	])
 
 print("\tGain for Attribute 2: {0:.3f}".format(
-		gain(SA14_0,A2)
+		gain(SA14_0,A2_14)
 	))
 
 # Attribute 4 (Value 0 or 1)
 
-A4 = np.array([
+A4_14 = np.array([
 		[2,13,4], # Samples for Attribute 4 where values are 1
 		[3,1] # Samples for Attribute 4 where values are 0
 	])
 
 print("\tGain for Attribute 4: {0:.3f}".format(
-		gain(SA14_0,A4)
+		gain(SA14_0,A4_14)
 	))
 
 # Attribute 5 (Value 0 or 1)
 
-A5 = np.array([
+A5_14 = np.array([
 		[3,], # Samples for Attribute 5 where values are 1
 		[3,13,4] # Samples for Attribute 5 where values are 0
 	])
 
 print("\tGain for Attribute 5: {0:.3f}".format(
-		gain(SA14_0,A5)
+		gain(SA14_0,A5_14)
 	))
 
 # Attribute 6 (Value 0 or 1)
 
-A6 = np.array([
+A6_14 = np.array([
 		[], # Samples for Attribute 6 where values are 1
 		[3,3,13,4] # Samples for Attribute 6 where values are 0
 	])
 
 print("\tGain for Attribute 6: {0:.3f}".format(
-		gain(SA14_0,A6)
+		gain(SA14_0,A6_14)
 	))
 
 # Attribute 7 (Value 0 or 1)
 
-A7 = np.array([
+A7_14 = np.array([
 		[3,1,1], # Samples for Attribute 7 where values are 1
 		[2,7,3] # Samples for Attribute 7 where values are 0
 	])
 
 print("\tGain for Attribute 7: {0:.3f}".format(
-		gain(SA14_0,A7)
+		gain(SA14_0,A7_14)
 	))
 
 # Attribute 8 (Value 0 or 1)
 
-A8 = np.array([
+A8_14 = np.array([
 		[3,3,9,2], # Samples for Attribute 8 where values are 1
 		[4,2] # Samples for Attribute 8 where values are 0
 	])
 
 print("\tGain for Attribute 8: {0:.3f}".format(
-		gain(SA14_0,A8)
+		gain(SA14_0,A8_14)
 	))
 
 # Attribute 9 (Value 0 or 1)
 
-A9 = np.array([
+A9_14 = np.array([
 		[3,3,13], # Samples for Attribute 9 where values are 1
 		[4] # Samples for Attribute 9 where values are 0
 	])
 
 print("\tGain for Attribute 9: {0:.3f}".format(
-		gain(SA14_0,A9)
+		gain(SA14_0,A9_14)
 	))
 
 # Attribute 10 (Value 0 or 1)
 
-A10 = np.array([
+A10_14 = np.array([
 		[3,3,13], # Samples for Attribute 10 where values are 1
 		[4] # Samples for Attribute 10 where values are 0
 	])
 
 print("\tGain for Attribute 10: {0:.3f}".format(
-		gain(SA14_0,A10)
+		gain(SA14_0,A10_14)
 	))
 
 # Attribute 11 (Value 0 or 1)
 
-A11 = np.array([
+A11_14 = np.array([
 		[3,2], # Samples for Attribute 11 where values are 1
 		[1,11,4] # Samples for Attribute 11 where values are 0
 	])
 
 print("\tGain for Attribute 11: {0:.3f}".format(
-		gain(SA14_0,A11)
+		gain(SA14_0,A11_14)
 	))
 
 # Attribute 12 (Value 0 or 1)
 
-A12 = np.array([
+A12_14 = np.array([
 		[2,1,1], # Samples for Attribute 12 where values are 1
 		[3,1,13,3] # Samples for Attribute 12 where values are 0
 	])
 
 print("\tGain for Attribute 12: {0:.3f}".format(
-		gain(SA14_0,A12)
+		gain(SA14_0,A12_14)
 	))
 
 # Attribute 13 (Value 0 or 1)
 
-A13 = np.array([
+A13_14 = np.array([
 		[3,13], # Samples for Attribute 13 where values are 1
 		[3,4] # Samples for Attribute 13 where values are 0
 	])
 
 print("\tGain for Attribute 13: {0:.3f}".format(
-		gain(SA14_0,A13)
+		gain(SA14_0,A13_14)
 	))
 
 # Attribute 15 (Value 0 or 1)
 
-A15 = np.array([
+A15_14 = np.array([
 		[2,3,13], # Samples for Attribute 15 where values are 1
 		[1,4] # Samples for Attribute 15 where values are 0
 	])
 
 print("\tGain for Attribute 15: {0:.3f}".format(
-		gain(SA14_0,A15)
+		gain(SA14_0,A15_14)
 	))
 
 # Attribute 16 (Value 0 or 1)
 
-A16 = np.array([
+A16_14 = np.array([
 		[1], # Samples for Attribute 16 where values are 1
 		[3,3,12,4] # Samples for Attribute 16 where values are 0
 	])
 
 print("\tGain for Attribute 16: {0:.3f}".format(
-		gain(SA14_0,A16)
+		gain(SA14_0,A16_14)
 	))
 
 # Attribute 17 (Value 0 or 1)
 
-A17 = np.array([
+A17_14 = np.array([
 		[3,4], # Samples for Attribute 17 where values are 1
 		[3,9,4] # Samples for Attribute 17 where values are 0
 	])
 
 print("\tGain for Attribute 17: {0:.3f}".format(
-		gain(SA14_0,A17)
+		gain(SA14_0,A17_14)
 	))
+
+# After this the tree is building by inspection of zoo.xls 
